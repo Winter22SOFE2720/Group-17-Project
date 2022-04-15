@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Checkout</title>
+  </head>
+  <body class="bg-light">
+
+    <div class="container">
+        <div class="py-5 text-center">
+            <img class="mb-4 d-block mx-auto" src="phoenix.jpg" width="100" height="100">       
+        <h2>Checkout Form</h2>
+        </div>
+    </div>
+
+    <div class="container">
+        <h4 class="mb-3">Billing Address</h4>
+        <form novalidate>
+            <div class="row g-3">
+                <div class="col-sm-6">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input id="firstName" type="text" class="form-control" placeholder="Michael" required>
+                    <div class="invalid-feedback">
+                        Valid first name is required.
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input id="lastName" type="text" class="form-control" placeholder="Carino" required>
+                    <div class="invalid-feedback">
+                        Valid last name is required.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <label for="username" class="form-label">Username</label>
+                    <div class="input-group">
+                        <span class="input-group-text">@</span>                   
+                        <input id="username" type="text" class="form-control" placeholder="mcarino" required>
+                    </div>    
+                    <div class="invalid-feedback">
+                        Valid username is required.
+                    </div> 
+                </div>    
+                    <div class="col-md-5">
+                        <label for="country" class="form-label">Country</label>                     
+                        <select id="country" class="form-control"> 
+                            <option value="">Choose country</option>
+                            <option value="Canada">Canada</option>
+                            <option value="United States">United States</option>
+                        </select>    
+                        <div class="invalid-feedback">
+                            Country is required.
+                        </div>  
+                    </div>
+                <div class="col-md-4">
+                    <label for="province" class="form-label">Province</label>                     
+                    <select id="province" class="form-control"> 
+                        <option value="">Choose province</option>
+                        <option value="Alberta">AB</option>
+                        <option value="British Columbia">BC</option>
+                        <option value="Manitoba">MB</option>
+                        <option value="New Brunswick">NB</option>
+                        <option value="Newfoundland and Labrador">NL</option>
+                        <option value="Nova Scotia">NS</option>
+                        <option value="Northwest Territories">NT</option>
+                        <option value="Nunavut">NU</option>
+                        <option value="Ontario">ON</option>
+                        <option value="Prince Edward Island">PE</option>
+                        <option value="Quebec">QC</option>
+                        <option value="Saskatchewan">SK</option>
+                        <option value="Yukon">YT</option>
+                    </select>    
+                    <div class="invalid-feedback">
+                        Province is required.
+                    </div>  
+                </div>
+                <div class="col-md-3">
+                    <label for="postcode" class="form-label">Postal Code</label>             
+                    <input id="postcode" type="text" class="form-control" placeholder="A1B2C3" required>  
+                    <div class="invalid-feedback">
+                        Valid postal code is required.
+                    </div> 
+                </div>
+
+                <hr class="my-4">
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <input id="sameAddress" type="checkbox" class="form-check-input">
+                        <label class="from-check-label" for="sameAddress">Shipping address is the same as billing.</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="saveInfo" type="checkbox" class="form-check-input">
+                        <label class="from-check-label" for="saveInfo">Save this info.</label>
+                    </div>
+                </div>
+
+                <hr class="my-4">
+
+                <h4 class="mb-3">Payments</h4>
+
+                <div class="form-check">
+                    <input id="creditCard" name="payMethod" type="radio" class="form-check-input" checked required>
+                    <label for="creditCard">Credit Card</label>
+                </div>
+                <div class="form-check">
+                    <input id="paypal" name="payMethod" type="radio" class="form-check-input" required>
+                    <label for="paypal">Paypal</label>
+                </div>
+
+                <div class="row my-3 gy-3">
+                    <div class="col-md-6">
+                        <label for="fullName" class="form-label">Name on card</label>
+                        <input id="fullName" type="text" class="form-control">
+                        <small class="text-muted">Full name as displayed on card</small>
+                        <div class="invalid-feedback">
+                            Name on card is required.
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="cardNum" class="form-label">Credit Card Number</label>
+                        <input id="cardNum" type="text" class="form-control">
+                        <div class="invalid-feedback">
+                            Credit card number is required.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="cardExp" class="form-label">Expiration Date</label>
+                        <input id="cardExp" type="text" class="form-control">
+                        <div class="invalid-feedback">
+                            Expiration is required.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="cvv" class="form-label">CVV</label>
+                        <input id="cvv" type="text" class="form-control">
+                        <div class="invalid-feedback">
+                            CVV is required.
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-4">
+
+                <button class="btn btn-primary btn-lg btn-block">Continue to checkout</button>
+
+                <hr class="my-5">
+
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>
