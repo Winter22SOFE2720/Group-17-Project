@@ -1,0 +1,22 @@
+{
+    "Shoes": [
+        {
+            "id": 1,
+            "name": "Phoenix Original",
+            "price": 6000,
+            "imgName": "product1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Phoenix Original 2",
+            "price": 8000,
+            "imgName": "product1.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Phoenix Original 3",
+            "price": 9000,
+            "imgName": "product1.jpg"
+        }
+    ]
+}
