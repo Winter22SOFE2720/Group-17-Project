@@ -15,6 +15,10 @@ Michael Carino 100620258
 [Use Cases](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Use%20Cases)\
 [Design](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Design)\
 [Code](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Code)\
-[Test Case](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Test%20Case)
+[Test Case](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Test%20Case)\
+[Screenshots](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Screenshots)
 
 ## Screenshots
+![Website](https://github.com/Winter22SOFE2720/Group-17-Project/blob/main/Screenshots/website.PNG)
+![Sample Cart](https://github.com/Winter22SOFE2720/Group-17-Project/blob/main/Screenshots/cart.PNG)
+
