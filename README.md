@@ -11,10 +11,10 @@ Jose Martinez 100763170\
 Michael Carino 100620258
 
 ## Table of Contents
-Requirements\
-Use Cases\
-Design\
+[Requirements](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Requirements)\
+[Use Cases](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Use%20Cases)\
+[Design](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Design)\
 [Code](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Code)\
-Test Case
+[Test Case](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Test%20Case)
 
 ## Screenshots
