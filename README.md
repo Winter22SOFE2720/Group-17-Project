@@ -14,7 +14,7 @@ Michael Carino 100620258
 Requirements\
 Use Cases\
 Design\
-Code\
+[Code](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Code)\
 Test Case
 
 ## Screenshots
