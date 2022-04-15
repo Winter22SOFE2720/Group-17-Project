@@ -11,10 +11,10 @@ Jose Martinez 100763170\
 Michael Carino 100620258
 
 ## Table of Contents
-Requirements
-Use Cases
-Design
-Code
+Requirements\
+Use Cases\
+Design\
+Code\
 Test Case
 
 ## Screenshots
