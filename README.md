@@ -1,3 +1,20 @@
-# Project-Template
-### Please upload the project requirements creating similar folders in your project.
-### Make sure to create a good report for each module.
+# Phoenix
+
+Phoenix Online Shopping System is a website prototype that offers customers a way to shop online. Phoenix strives to provide exceptional customer service, while focusing on a navigable and user-friendly website.
+
+## Group Information
+CRN-73378 Group 17
+
+Authors:\
+Stanley Watemi 100648403\
+Jose Martinez 100763170\
+Michael Carino 100620258
+
+## Table of Contents
+Requirements
+Use Cases
+Design
+Code
+Test Case
+
+## Screenshots
