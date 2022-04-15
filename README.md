@@ -17,6 +17,7 @@ Michael Carino 100620258
 [Code](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Code)\
 [Test Case](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Test%20Case)\
 [Screenshots](https://github.com/Winter22SOFE2720/Group-17-Project/tree/main/Screenshots)
+[Code Instructions](https://github.com/Winter22SOFE2720/Group-17-Project/blob/main/Code/CodeInstructions.md)
 
 ## Screenshots
 ![Website](https://github.com/Winter22SOFE2720/Group-17-Project/blob/main/Screenshots/website.PNG)
